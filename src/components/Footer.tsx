@@ -1,27 +1,10 @@
-import { useState } from 'react'
-import {t} from 'i18next'
 import { getThemeColors, getIsDark } from '../theme/colors'
 import { Icon } from '@iconify/react'
 
 export default function Footer() {
-  const [hoveredLink, setHoveredLink] = useState<string | null>(null)
-
   const isDark = getIsDark()
 
-  const { accentColor, accentLight, textColor, mutedColor, borderColor } = getThemeColors(isDark)
-
-  const getIconButtonStyle = (id: string) => ({
-    display: 'inline-flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    width: '40px',
-    height: '40px',
-    borderRadius: '8px',
-    background: hoveredLink === id ? accentColor : accentLight,
-    color: hoveredLink === id ? 'white' : accentColor,
-    transition: 'all 0.2s ease',
-    fontSize: '18px'
-  })
+  const { accentColor, textColor, mutedColor, borderColor } = getThemeColors(isDark)
 
   return (
     <footer style={{
@@ -107,9 +90,6 @@ export default function Footer() {
             }}>
               <a
                 href="mailto:tfahim00@gmail.com"
-                // style={getIconButtonStyle('email') as React.CSSProperties}
-                onMouseEnter={() => setHoveredLink('email')}
-                onMouseLeave={() => setHoveredLink(null)}
               >
                 <Icon icon="hugeicons:mail-send-01" width="20" height="20" />
               </a>
@@ -117,9 +97,6 @@ export default function Footer() {
                 href="https://github.com/tfahim00"
                 target="_blank"
                 rel="noopener"
-                // style={getIconButtonStyle('github') as React.CSSProperties}
-                onMouseEnter={() => setHoveredLink('github')}
-                onMouseLeave={() => setHoveredLink(null)}
               >
                 <Icon icon="hugeicons:github-01" width="20" height="20" />
               </a>
@@ -127,9 +104,6 @@ export default function Footer() {
                 href="https://linkedin.com/in/tanvir-ahmed-fahim-2648ba208"
                 target="_blank"
                 rel="noopener"
-                // style={getIconButtonStyle('linkedin') as React.CSSProperties}
-                onMouseEnter={() => setHoveredLink('linkedin')}
-                onMouseLeave={() => setHoveredLink(null)}
               >
                 <Icon icon="hugeicons:linkedin-01" width="20" height="20" />
               </a>

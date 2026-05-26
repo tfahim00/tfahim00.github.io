@@ -1,4 +1,4 @@
-import { useState, type JSX } from 'react'
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import Navbar from './Navbar'
 import { Icon } from '@iconify/react'
@@ -12,7 +12,7 @@ interface HeaderProps {
 export default function Header({ isDark, onThemeToggle }: HeaderProps) {
   const { t } = useTranslation()
   const [imageHover, setImageHover] = useState(false)
-  const { accentColor, accentLight, textColor, mutedColor } = getThemeColors(isDark)
+  const { accentColor, textColor, mutedColor } = getThemeColors(isDark)
 
   return (
     <header style={{ background: 'transparent', paddingBottom: '24px' }}>

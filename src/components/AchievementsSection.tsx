@@ -21,7 +21,7 @@ export default function AchievementsSection() {
     }
   ]
 
-  const { accentColor, cardBg, borderColor, shadowLg, textColor, mutedColor } = getThemeColors(isDark)
+  const { accentColor, cardBg, borderColor, shadowLg, textColor } = getThemeColors(isDark)
 
   const getCardStyle = (index: number) => ({
     background: cardBg,

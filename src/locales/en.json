@@ -1,0 +1,57 @@
+{
+  "header": {
+    "name": "Tanvir Ahmed Fahim",
+    "title": "Junior Software Engineer II — Annonlab",
+    "bio": "Seeking challenging opportunities where my passion for coding and problem-solving can be harnessed to contribute significantly. Experienced with Laravel, Vue.js, Node.js and modern web development.",
+    "email": "tfahim00@gmail.com",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "nav": {
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "achievements": "Achievements",
+    "education": "Education"
+  },
+  "skills": {
+    "title": "Skills",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools & Others"
+  },
+  "experience": {
+    "title": "Experience",
+    "current": "Current",
+    "company": "Company",
+    "position": "Position",
+    "duration": "Duration",
+    "description": "Description"
+  },
+  "projects": {
+    "title": "Projects",
+    "viewMore": "View More",
+    "visitSite": "Visit Site",
+    "technologies": "Technologies"
+  },
+  "achievements": {
+    "title": "Achievements",
+    "award": "Award",
+    "date": "Date",
+    "description": "Description"
+  },
+  "education": {
+    "title": "Education",
+    "institution": "Institution",
+    "degree": "Degree",
+    "field": "Field of Study",
+    "graduationYear": "Graduation Year"
+  },
+  "footer": {
+    "copyright": "© 2024 Tanvir Ahmed Fahim. All rights reserved.",
+    "madeWith": "Made with",
+    "react": "React",
+    "typescript": "TypeScript",
+    "tailwind": "Tailwind CSS"
+  }
+}

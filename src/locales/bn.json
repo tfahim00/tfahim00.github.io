@@ -1,0 +1,57 @@
+{
+  "header": {
+    "name": "তানভীর আহমেদ ফাহিম",
+    "title": "জুনিয়র সফটওয়্যার ইঞ্জিনিয়ার II — Annonlab",
+    "bio": "চ্যালেঞ্জিং সুযোগ খুঁজছি যেখানে আমার কোডিং এবং সমস্যা সমাধানের আবেগ উল্লেখযোগ্যভাবে অবদান রাখতে পারে। Laravel, Vue.js, Node.js এবং আধুনিক ওয়েব ডেভেলপমেন্টে অভিজ্ঞ।",
+    "email": "tfahim00@gmail.com",
+    "github": "গিটহাব",
+    "linkedin": "লিংকডইন"
+  },
+  "nav": {
+    "skills": "দক্ষতা",
+    "experience": "অভিজ্ঞতা",
+    "projects": "প্রকল্প",
+    "achievements": "অর্জন",
+    "education": "শিক্ষা"
+  },
+  "skills": {
+    "title": "দক্ষতা",
+    "frontend": "ফ্রন্টএন্ড",
+    "backend": "ব্যাকএন্ড",
+    "tools": "টুলস ও অন্যান্য"
+  },
+  "experience": {
+    "title": "অভিজ্ঞতা",
+    "current": "বর্তমান",
+    "company": "কোম্পানি",
+    "position": "পদ",
+    "duration": "সময়কাল",
+    "description": "বর্ণনা"
+  },
+  "projects": {
+    "title": "প্রকল্প",
+    "viewMore": "আরও দেখুন",
+    "visitSite": "সাইট পরিদর্শন করুন",
+    "technologies": "প্রযুক্তি"
+  },
+  "achievements": {
+    "title": "অর্জন",
+    "award": "পুরস্কার",
+    "date": "তারিখ",
+    "description": "বর্ণনা"
+  },
+  "education": {
+    "title": "শিক্ষা",
+    "institution": "প্রতিষ্ঠান",
+    "degree": "ডিগ্রী",
+    "field": "অধ্যয়নের বিষয়",
+    "graduationYear": "স্নাতক বছর"
+  },
+  "footer": {
+    "copyright": "© ২০২৪ তানভীর আহমেদ ফাহিম। সমস্ত অধিকার সংরক্ষিত।",
+    "madeWith": "তৈরি করা হয়েছে",
+    "react": "রিঅ্যাক্ট",
+    "typescript": "টাইপস্ক্রিপ্ট",
+    "tailwind": "টেইলউইন্ড সিএসএস"
+  }
+}

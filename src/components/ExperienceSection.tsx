@@ -1,9 +1,10 @@
 import { useState } from 'react'
-import {t} from 'i18next'
+import { useTranslation } from 'react-i18next'
 import { getThemeColors, getIsDark } from '../theme/colors'
 import { Icon } from '@iconify/react'
 
 export default function ExperienceSection() {
+  const { t } = useTranslation()
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
   const isDark = getIsDark()

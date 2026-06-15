@@ -1,8 +1,9 @@
 import { useState } from 'react'
-import { t } from 'i18next'
+import { useTranslation } from 'react-i18next'
 import { getThemeColors, getIsDark } from '../theme/colors'
 
 export default function SkillsSection() {
+  const { t } = useTranslation()
   const [hoveredSkill, setHoveredSkill] = useState<string | null>(null)
 
   const isDark = getIsDark()

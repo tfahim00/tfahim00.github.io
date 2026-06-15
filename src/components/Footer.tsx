@@ -1,8 +1,9 @@
 import { getThemeColors, getIsDark } from '../theme/colors'
 import { Icon } from '@iconify/react'
-import { t } from 'i18next'
+import { useTranslation } from 'react-i18next'
 
 export default function Footer() {
+  const { t } = useTranslation()
   const isDark = getIsDark()
 
   const { accentColor, textColor, mutedColor, borderColor } = getThemeColors(isDark)

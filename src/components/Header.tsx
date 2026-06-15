@@ -71,7 +71,7 @@ export default function Header({ isDark, onThemeToggle }: HeaderProps) {
             {t('header.title')}
           </p>
 
-          <p
+          {/* <p
             style={{
               margin: '12px 0 16px 0',
               color: mutedColor,
@@ -82,7 +82,7 @@ export default function Header({ isDark, onThemeToggle }: HeaderProps) {
             }}
           >
             {t('header.bio')}
-          </p>
+          </p> */}
 
           <div style={{
             display: 'flex',

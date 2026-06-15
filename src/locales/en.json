@@ -48,10 +48,13 @@
     "graduationYear": "Graduation Year"
   },
   "footer": {
-    "copyright": "© 2024 Tanvir Ahmed Fahim. All rights reserved.",
+    "quickLinks": "Quick Links",
+    "connect": "Connect",
+    "copyright": "All rights reserved.",
     "madeWith": "Made with",
     "react": "React",
     "typescript": "TypeScript",
-    "tailwind": "Tailwind CSS"
+    "tailwind": "Tailwind CSS",
+    "bio": "Creating simple and engaging digital solutions using modern technologies."
   }
 }

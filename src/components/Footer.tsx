@@ -1,5 +1,6 @@
 import { getThemeColors, getIsDark } from '../theme/colors'
 import { Icon } from '@iconify/react'
+import { t } from 'i18next'
 
 export default function Footer() {
   const isDark = getIsDark()
@@ -33,7 +34,7 @@ export default function Footer() {
               margin: '0 0 12px 0',
               color: textColor
             }}>
-              Tanvir Ahmed Fahim
+              {t('header.name')}
             </h3>
             <p style={{
               fontSize: '13px',
@@ -41,7 +42,7 @@ export default function Footer() {
               margin: 0,
               lineHeight: '1.6'
             }}>
-              Junior Software Engineer crafting elegant digital solutions with modern technologies.
+              {t('footer.bio')}
             </p>
           </div>
 
@@ -55,7 +56,7 @@ export default function Footer() {
               margin: '0 0 12px 0',
               letterSpacing: '0.5px'
             }}>
-              Quick Links
+              {t('footer.quickLinks')}
             </h4>
             <ul style={{
               listStyle: 'none',
@@ -65,10 +66,10 @@ export default function Footer() {
               flexDirection: 'column',
               gap: '8px'
             }}>
-              <li><a href="#skills" style={{ fontSize: '13px', color: mutedColor }}>Skills</a></li>
-              <li><a href="#experience" style={{ fontSize: '13px', color: mutedColor }}>Experience</a></li>
-              <li><a href="#projects" style={{ fontSize: '13px', color: mutedColor }}>Projects</a></li>
-              <li><a href="#achievements" style={{ fontSize: '13px', color: mutedColor }}>Achievements</a></li>
+              <li><a href="#skills" style={{ fontSize: '13px', color: mutedColor }}>{t('nav.skills')}</a></li>
+              <li><a href="#experience" style={{ fontSize: '13px', color: mutedColor }}>{t('nav.experience')}</a></li>
+              <li><a href="#projects" style={{ fontSize: '13px', color: mutedColor }}>{t('nav.projects')}</a></li>
+              <li><a href="#achievements" style={{ fontSize: '13px', color: mutedColor }}>{t('nav.achievements')}</a></li>
             </ul>
           </div>
 
@@ -82,7 +83,7 @@ export default function Footer() {
               margin: '0 0 12px 0',
               letterSpacing: '0.5px'
             }}>
-              Connect
+              {t('footer.connect')}
             </h4>
             <div style={{
               display: 'flex',
@@ -123,13 +124,13 @@ export default function Footer() {
             display: 'block',
             marginBottom: '8px'
           }}>
-            © {new Date().getFullYear()} Tanvir Ahmed Fahim. All rights reserved.
+            © {new Date().getFullYear()} {t('header.name')}. {t('footer.copyright')}
           </small>
           <small style={{
             color: mutedColor,
             fontSize: '11px'
           }}>
-            Built with ❤️ using React, TypeScript, and Tailwind CSS
+            {t('footer.madeWith')} ❤️ {t('footer.react')}, {t('footer.typescript')}, {t('footer.tailwind')}
           </small>
         </div>
       </div>

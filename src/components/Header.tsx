@@ -12,7 +12,7 @@ interface HeaderProps {
 export default function Header({ isDark, onThemeToggle }: HeaderProps) {
   const { t } = useTranslation()
   const [imageHover, setImageHover] = useState(false)
-  const { accentColor, textColor, mutedColor } = getThemeColors(isDark)
+  const { accentColor, textColor } = getThemeColors(isDark)
 
   return (
     <header style={{ background: 'transparent', paddingBottom: '24px' }}>
